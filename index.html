@@ -16,8 +16,7 @@
       src="https://kit.fontawesome.com/c7aec047ee.js"
       crossorigin="anonymous"
     ></script>
-    <!-- css style file link  -->
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Justice</title>
   </head>
@@ -73,8 +72,9 @@
               </button> -->
               <!-- Button trigger modal -->
               <button
+                class="btn px-3 py-3 text-white"
+                style="background: #b68c5a"
                 type="button"
-                class="px-4 py-3 text-white btn btn-warning"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -106,12 +106,17 @@
                     <div class="modal-footer">
                       <button
                         type="button"
-                        class="btn btn-secondary"
+                        style="background: #b68c5a; width: 140px"
+                        class="btn px-3 mb-2 py-3 rounded-3 text-white"
                         data-bs-dismiss="modal"
                       >
                         Close
                       </button>
-                      <button type="button" class="btn btn-primary">
+                      <button
+                        type="button"
+                        style="background: #b68c5a; width: 140px"
+                        class="btn px-3 mb-2 py-3 rounded-3 text-white"
+                      >
                         Save changes
                       </button>
                     </div>
@@ -127,44 +132,35 @@
 
     <!-- main section start  -->
     <main class="container py-4">
-      <!-- banner section start  -->
-
-      <section class="container himge">
-        <div
-          class="d-flex text-center pt-5 justify-content-center align-items-center"
-        >
-          <div class="text-white px-4">
-            <div class="mb-5">
-              <h1 class="fw-bold display-3 mb-4">
-                We Provide Effective <br />
-                Legal Solutions
-              </h1>
-              <p class="card-text">
-                Contact Effective Legal Solutions and we will help you with any
-                family,<br />
-                personal or business legal matters. Our lawyers pride themselves
-                on always <br />
-                giving you the legal advice you really need, delivered by expert
-                lawyers
-              </p>
-            </div>
-            <div class="input-group mb-3">
-              <input
-                type="text"
-                class="form-control me-3 px-3 py-3 rounded-3"
-                placeholder="Search your services"
-                aria-label="Recipient's username"
-                aria-describedby="button-addon2"
-              />
-              <button
-                class="btn bg-light rounded-3 px-3 py-3"
-                type="button"
-                id="button-addon2"
-              >
-                Search
-              </button>
-            </div>
-          </div>
+      <section class="container mx-auto py-5 bgimg">
+        <div class="text-white text-center py-5 my-5">
+          <h1 class="fw-bold mb-4">
+            We Provide Effective <br />
+            Legal Solutions
+          </h1>
+          <p class="card-text pb-3">
+            Contact Effective Legal Solutions and we will help you with any
+            family,<br />
+            personal or business legal matters. Our lawyers pride themselves on
+            always <br />
+            giving you the legal advice you really need, delivered by expert
+            lawyers
+          </p>
+          <form class="d-md-flex container mx-auto text-center w-50">
+            <input
+              class="form-control me-2 mb-2"
+              type="search"
+              placeholder="Search your services"
+              aria-label="Search"
+            />
+            <button
+              style="background: #b68c5a; width: 140px"
+              class="btn px-3 mb-2 py-3 rounded-3 text-white"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
         </div>
       </section>
 
@@ -582,8 +578,143 @@
           </div>
         </div>
       </section>
-      <!-- frequently asked question end
-  -->
+      <!-- frequently asked question end-->
+
+      <!-- contact us section start  -->
+      <section class="container py-5">
+        <div class="text-center">
+          <h1 class="fw-bold">Contact With us</h1>
+          <p>
+            We pride ourselves on being highly recommended by our clients,most
+            of them long-standing. <br />
+            So now we have told you what we can do, let us prove it by showing
+            you what our clients <br />
+            say about us and the service we provide.
+          </p>
+        </div>
+        <div class="row py-5 px-2">
+          <div class="col-12 col-md-6">
+            <div class="container py-5">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2">
+                <div class="card col bg-light border-top-0 border-start-0">
+                  <div class="text-center">
+                    <img
+                      src="./images/address.png"
+                      class="card-img-top py-4 w-25"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Address</h5>
+                    <p class="card-text">
+                      A108 Adam Street,<br />
+                      New York, NY 535022
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="card col bg-light border-top-0 border-end-0 bg-gradient"
+                >
+                  <div class="text-center">
+                    <img
+                      src="./images/call.png"
+                      class="card-img-top py-4 w-25"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Call Us</h5>
+                    <p class="card-text">
+                      +88 01750 00 00 00 <br />
+                      +88 01750 00 00 00
+                    </p>
+                  </div>
+                </div>
+                <div class="card col bg-light border-start-0 border-bottom-0">
+                  <div class="text-center">
+                    <img
+                      src="./images/email.png"
+                      class="card-img-top py-4 w-25"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Email Us</h5>
+                    <p class="card-text">
+                      info@gmail.com <br />
+                      info@gmail.com
+                    </p>
+                  </div>
+                </div>
+                <div class="card col bg-light border-bottom-0 border-end-0">
+                  <div class="text-center">
+                    <img
+                      src="./images/time.png"
+                      class="card-img-top py-4 w-25"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Working Hours</h5>
+                    <p class="card-text">
+                      Mon-Fri: 9AM to 5PM <br />
+                      Sunday: 9AM to 1 PM
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 py-5">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control px-3 py-3 rounded-3 border-0 bg-light"
+                placeholder=" Your Name"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control px-3 py-3 rounded-3 border-0 bg-light"
+                placeholder=" Your Email"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control px-3 py-3 rounded-3 border-0 bg-light"
+                placeholder=" subject"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                type="text"
+                class="form-control rounded-3 border-0 bg-light"
+                placeholder=" Your Massage"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+            </div>
+            <div class="d-grid">
+              <button
+                class="btn px-3 py-3 text-white"
+                style="background: #b68c5a"
+                type="button"
+              >
+                Send Massage
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact us section end  -->
     </main>
 
     <!-- main section start  -->

@@ -1,6 +1,5 @@
-.himge {
-  background-image: url("./images/Rectangle-4.png");
-
+.bgimg {
+  background-image: url("./images/lady-justice-law-library-concept.jpg");
   background-repeat: no-repeat;
   height: 80vh;
   border: none;
@@ -8,7 +7,4 @@
   width: 100%;
   background-size: cover;
   border-radius: 7px;
-}
-.search_box {
-  width: 500px;
 }
