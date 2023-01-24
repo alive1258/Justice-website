@@ -1,0 +1,14 @@
+.himge {
+  background-image: url("./images/Rectangle-4.png");
+
+  background-repeat: no-repeat;
+  height: 80vh;
+  border: none;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  border-radius: 7px;
+}
+.search_box {
+  width: 500px;
+}
