@@ -1,5 +1,7 @@
 .bgimg {
-  background-image: url("./images/lady-justice-law-library-concept.jpg");
+  background-image: url("./images/lady-justice-law-library-concept.jpg"),
+    linear-gradient(to right, rgb(15, 15, 15), rgba(255, 0, 0, 0));
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   height: 80vh;
   border: none;
@@ -7,4 +9,8 @@
   width: 100%;
   background-size: cover;
   border-radius: 7px;
+}
+h1,
+h2 {
+  font-family: "EB Garamond", serif;
 }
